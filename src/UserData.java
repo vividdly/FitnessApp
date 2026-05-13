@@ -70,11 +70,11 @@ public class UserData implements Serializable {
     }
     public void resetCaloriesOnly() {
         caloriesConsumed = 0;
-        // Keep protein and food log
+
     }
 
     public void resetProteinOnly() {
         proteinConsumed = 0;
-        // Keep calories and food log
+
     }
 }
